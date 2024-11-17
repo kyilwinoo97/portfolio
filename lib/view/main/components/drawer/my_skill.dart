@@ -37,7 +37,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
                     style: const TextStyle(color: bodyTextColor),
                   ),
                   const Spacer(),
-                  Text('${(value * 100).toInt().toString()}%'),
+                  Text('${(value * 100).toInt().toString()}%',style: TextStyle(color: primaryColor),),
                 ],
               ),
               const SizedBox(
