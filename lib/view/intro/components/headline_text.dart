@@ -11,7 +11,7 @@ class MyPortfolioText extends StatelessWidget {
         tween: Tween(begin: start, end: end),
         duration: const Duration(milliseconds: 200),
         builder: (context, value, child) {
-          return Text('My Personal Portfolio',
+          return Text('',
               style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                   fontWeight: FontWeight.w900,
                   height: 0,
