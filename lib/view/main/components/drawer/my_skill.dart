@@ -85,7 +85,7 @@ var skillList = [
   SkillModel(
       percentage: 0.9, title: "Flutter", image: "assets/icons/flutter.png"),
   SkillModel(percentage: 0.9, title: 'Dart', image: 'assets/icons/dart.png'),
-  SkillModel(percentage: 0.9, title: "Java", image: "assets/icons/java.png"),
+  SkillModel(percentage: 0.89, title: "Java", image: "assets/icons/java.png"),
   SkillModel(
       percentage: 0.9, title: "Kotlin", image: "assets/icons/kotlin.jpeg"),
   SkillModel(
