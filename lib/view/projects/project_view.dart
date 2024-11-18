@@ -21,6 +21,9 @@ class ProjectsView extends StatelessWidget {
           const SizedBox(
             height: defaultPadding,
           ),
+
+
+
           Expanded(
               child: Responsive(
                   desktop: ProjectGrid(crossAxisCount: 3,),
