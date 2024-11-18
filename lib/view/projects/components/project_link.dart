@@ -32,6 +32,8 @@ class ProjectLinks extends StatelessWidget {
             onPressed: () {
               if(projectList[index].image.isNotEmpty){
                 ImageViewer(context,projectList[index].image);
+              }else{
+                launchUrl(Uri.parse(projectList[index].link));
               }
             },
             child: const Text(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:portfolio/view/projects/components/project_deatail.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../../model/project_model.dart';
 import '../../../../utils/colors.dart';
 import '../../../view model/getx_controllers/projects_controller.dart';
@@ -19,6 +20,8 @@ class ProjectStack extends StatelessWidget {
       onTap: () {
         if(projectList[index].image.isNotEmpty){
           ImageViewer(context,projectList[index].image);
+        }else{
+          launchUrl(Uri.parse(projectList[index].link));
         }
       },
       borderRadius: BorderRadius.circular(30),
